@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pierre-Marty Ori - Portofolio</title>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #311B92;">
+        <div class="container-fluid">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarCenteredExample"
+            aria-controls="navbarCenteredExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarCenteredExample"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="a-propos.html">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div
+      class="bg-image"
+      style="
+        background-image: url('img/coding.jpg');
+        height: 25vh;
+      "
+    >
+        <div class="mask d-flex justify-content-center align-items-center" style="background-color: hsla(0, 0%, 0%, 0.6)">
+          <div class="text-white text-center">
+              <h1>Portfolio</h1>
+          </div>
+        </div>
+
+    </div>
+
+<div class="container my-3">
+      <div class="d-flex align-items-start mb-3">
+        <div class="col">
+          <div class="card">
+            <img src="img/intranet_insercall.png" class="card-img-top" alt="intranet-insercall"/>
+            <div class="card-body">
+              <h5 class="card-title">Intranet Insercall</h5>
+              <p class="card-text">Application de gestion de missions d’un centre d’appel et de suivi RH</p>
+              <a href="intranet-insercall.html" class="btn btn-primary" data-mdb-ripple-init>Voir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center">
+        <div class="text-center text-white p-3" style="background-color: #311B92;">
+          © 2024 - Pierre-Marty Ori
+        </div>
+      </footer>
+      <script src="js/mdb.umd.min.js"></script>
+  </body>
+</html>
