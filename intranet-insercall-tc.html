@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pierre-Marty Ori - Intranet Insercall (Partie TC)</title>
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #311B92;">
+        <div class="container-fluid">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarCenteredExample"
+            aria-controls="navbarCenteredExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarCenteredExample"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="a-propos.html">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<div class="container my-3">
+  <a href="portfolio.html"><i class="fa-solid fa-arrow-left"></i> Retour</a>
+
+  <h1 class="text-center mb-3">Intranet Insercall Partie Centre d'Appel</h1>
+
+  <p>
+    Le projet consiste à refaire intégralement l'intranet. Il s'agit d'une application de gestion de missions d'un centre d'appels :
+    <ul>
+      <li>Accès à l'application différenciée selon des niveaux d'autorisation</li>
+      <li>Création de mission selon 3 catégories réception/prospection/enquête : script, intégration d'une base de données d'appelants</li>
+      <li>Suivi de mission : formulaire de comptes-rends d'appels, calendrier de prise de rdv</li>
+    </ul>
+
+  </p>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Création de la mission</h5>
+      <p class="card-text">
+        Formulaire de création de la mission, le nom, le type de mission, le nom du client associé à la mission et l'ajout d'un script
+        pour les téléconseiller(e)s.
+      </p>
+    </div>
+    <img src="img/intranet_insercall_5.png" class="card-img-bottom" alt="creation_mission"/>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Création du formulaire pour la mission</h5>
+      <p class="card-text">
+        On crée le formulaire en choississant les champs que l'on souhaite. On peut bien sûr le modifier plus tard.
+      </p>
+    </div>
+    <img src="img/intranet_insercall_6.png" class="card-img-bottom" alt="creation_formulaire_mission"/>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Ajout données</h5>
+      <p class="card-text">
+        Le compte-rendu de l'appel est retranscrit grâce au formulaire généré au préalable.
+      </p>
+    </div>
+    <img src="img/intranet_insercall_7.png" class="card-img-bottom" alt="ajout_données_avec_formulaire"/>
+  </div>
+
+
+  <h2>Technologies utilisées</h2>
+  <ul>
+    <li>Symfony 6</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>HTML</li>
+    <li>JavaScript</li>
+    <li>Bootstrap</li>
+  </ul>
+  
+</div>
+
+    <footer class="bg-body-tertiary text-center">
+        <div class="text-center text-white p-3" style="background-color: #311B92;">
+          © 2024 - Pierre-Marty Ori
+        </div>
+      </footer>
+      <script src="js/mdb.umd.min.js"></script>
+  </body>
+</html>
