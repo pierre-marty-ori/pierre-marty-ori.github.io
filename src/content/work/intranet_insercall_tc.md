@@ -1,12 +1,12 @@
 ---
 title: Insercall TC
-publishDate: 2024-11-01 00:00:00
+publishDate: 2024-06-04 00:00:00
 img: /assets/intranet_insercall.png
 img_alt: intranet insercall tc
 description: |
   Le projet consiste à refaire intégralement l'intranet. Il s'agit d'une application de gestion de missions d'un centre d'appels.
 tags:
-  - Dev
+  - Frontend
   - Backend
 ---
 
@@ -253,7 +253,8 @@ body {
 }
 
 img {
-  margin-bottom: -4px;
+  margin-bottom: -0.5px;
+  border: none !important
 }
 
 .caption-container {

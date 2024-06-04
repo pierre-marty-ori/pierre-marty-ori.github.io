@@ -1,12 +1,12 @@
 ---
 title: Insercall RH
-publishDate: 2024-11-02 00:00:00
+publishDate: 2024-06-04 00:00:00
 img: /assets/intranet_insercall.png
 img_alt: intranet insercall rh
 description: |
       Le projet consiste à refaire intégralement l'intranet pour la gestion des RH de l'association et la traçabilité de l'accompagnement de salariés en insertion, cette application a été créée sur mesure pour insercall.
 tags:
-  - Dev
+  - Frontend
   - Backend
 ---
 
@@ -340,7 +340,8 @@ body {
 }
 
 img {
-  margin-bottom: -4px;
+  margin-bottom: -0.5px;
+  border: none !important
 }
 
 .caption-container {
