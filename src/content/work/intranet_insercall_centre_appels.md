@@ -1,5 +1,5 @@
 ---
-title: Insercall TC
+title: Insercall Centre D'Appels
 publishDate: 2024-06-04 00:00:00
 img: /assets/intranet_insercall.png
 img_alt: intranet insercall tc
