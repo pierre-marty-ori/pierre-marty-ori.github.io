@@ -1,0 +1,142 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="Pierre-Marty Ori | À propos" description="À propos de Pierre-Marty Ori">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos de moi"
+				tagline=""
+				align="center"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/coding.jpg"
+					alt="codage"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Expériences Professionnelles</h2>
+				<div class="content">
+					<ul>
+						<li>
+							<h5>Insercall - Développeur Web</h5>
+							<p>Depuis le 27 septembre 2021</p>
+              				<p>Refonte de l’intranet (application de gestion de missions d’un centre d’appel et de suivi RH)</p>
+						</li>
+					</ul>
+					<ul class="my-3">
+						<li>
+							<h5>Nymphéa Studio - Développeur Web (Stage Immersion)</h5>
+							<p>22 Mai 2023 - 02 Juin 2023</p>
+						</li>
+					</ul>
+					<ul class="my-3">
+						<li>
+							<h5>PGP Création Vidéo - Développeur Web (Stage Formation Développeur Web)</h5>
+							<p>11 Janvier 2021 - 24 Février 2021</p>
+						</li>
+					</ul>
+					<ul class="my-3">
+						<li>
+							<h5>Avenir 84 - WebDesigner (Stage Formation Designer Web)</h5>
+							<p>7 Janvier 2019 - 18 Janvier 2019</p>
+							<p>11 Février 2019 - 1er Mars 2019</p>
+							<p>1er Avril 2019 - 19 Avril 2019</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<ul>
+						<li><i class="fa-brands fa-symfony fa-2xl"></i> Symfony</li>
+						<li class="my-3"><i class="fa-brands fa-php fa-2xl" style="color: #B197FC;"></i> PHP </li>
+						<li class="my-3"><i class="fa-solid fa-database fa-2xl" style="color: #FFD43B;"></i> MySQL</li>
+						<li class="my-3"><i class="fa-brands fa-js fa-2xl" style="color: #ead64c"></i> JavaScript</li>
+						<li class="my-3"><i class="fa-brands fa-html5 fa-2xl" style="color: #e54c21;"></i> HTML</li>
+						<li class="my-3"><i class="fa-brands fa-css3-alt fa-2xl" style="color: #214ce5;"></i> CSS</li>
+						<li class="my-3"><i class="fa-brands fa-github fa-2xl"></i> GitHub</li>
+					</ul>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes</h2>
+				<div class="content">
+					<ul>
+						<li>Bachelor Concepteur d'Application Java (en cours)</li>
+						<li>Titre Professionnel Développeur Web et Web Mobile (2021)</li>
+						<li>Titre Professionnel Designer Web (2019)</li>
+						<li>BTS Industrialisation des Produits Mécaniques (2015)</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- <ContactCTA /> -->
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
