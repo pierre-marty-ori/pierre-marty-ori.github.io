@@ -8,6 +8,7 @@ description: |
 tags:
   - Frontend
   - Backend
+  - Symfony
 ---
 
   Le projet consiste à refaire intégralement l'intranet pour la gestion des RH de l'association et la traçabilité de l'accompagnement de salariés en insertion, cette application a été créée sur mesure pour insercall.
@@ -100,9 +101,6 @@ tags:
   </div>
   <div class="column">
     <img src="/assets/intranet_insercall_9.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="/assets/intranet_insercall_2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
     <img src="/assets/intranet_insercall_2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">

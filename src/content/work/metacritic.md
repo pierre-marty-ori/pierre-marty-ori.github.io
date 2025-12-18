@@ -1,79 +1,60 @@
 ---
-title: Insercall Centre D'Appels
-publishDate: 2024-06-04 00:00:00
-img: /assets/intranet_insercall.png
-img_alt: intranet insercall tc
+title: Metacritic Symfony
+publishDate: 2024-10-05 00:00:00
+img: /assets/metacritic_symfony.png
+img_alt: metacritic
 description: |
-  Le projet consiste à refaire intégralement l'intranet. Il s'agit d'une application de gestion de missions d'un centre d'appels.
+      Il s'agit d'un projet personnel. C'est un clone du site Metacritic.
 tags:
   - Frontend
   - Backend
+  - Symfony
 ---
 
-  <p>
-    <ul>
-      <li>Accès à l'application différenciée selon des niveaux d'autorisation</li>
-      <li>Création de mission selon 3 catégories réception/prospection/enquête : script, intégration d'une base de données d'appelants</li>
-      <li>Suivi de mission : formulaire de comptes-rends d'appels, calendrier de prise de rdv</li>
-    </ul>
-  </p>
+  Il s'agit d'un projet personnel. C'est un clone du site Metacritic.
 
-  <div class="card mb-3">
+<div class="card mb-3">
     <div class="card-body">
-      <h5 class="card-title">Création de la mission</h5>
+      <h5 class="card-title">Page Accueil</h5>
       <p class="card-text">
-        Formulaire de création de la mission, le nom, le type de mission, le nom du client associé à la mission et l'ajout d'un script
-        pour les téléconseiller(e)s.
+        <!-- Il s'agit d'un formulaire de connexion permettant d'accéder à l'intranet. -->
       </p>
     </div>
-    <img src="/assets/intranet_insercall_5.png" class="card-img-bottom" alt="creation_mission"/>
+    <img src="/assets/metacritic_symfony.png" class="card-img-bottom" alt="page accueil"/>
   </div>
 
   <div class="card mb-3">
     <div class="card-body">
-      <h5 class="card-title">Création du formulaire pour la mission</h5>
+      <h5 class="card-title">Page Jeux</h5>
       <p class="card-text">
-        On crée le formulaire en choississant les champs que l'on souhaite. On peut bien sûr le modifier plus tard.
+        <!-- Page d'accueil de l'intranet après connexion selon le niveau d'autorisation du salarié(e). -->
       </p>
     </div>
-    <img src="/assets/intranet_insercall_6.png" class="card-img-bottom" alt="creation_formulaire_mission"/>
+    <img src="/assets/metacritic_symfony_2.png" class="card-img-bottom" alt="page jeux"/>
   </div>
 
   <div class="card mb-3">
     <div class="card-body">
-      <h5 class="card-title">Ajout données</h5>
+      <h5 class="card-title">Page Films</h5>
       <p class="card-text">
-        Le compte-rendu de l'appel est retranscrit grâce au formulaire généré au préalable.
+        <!-- Chaque salarié(e) doit compléter leur profil. -->
       </p>
     </div>
-    <img src="/assets/intranet_insercall_7.png" class="card-img-bottom" alt="ajout_données_avec_formulaire"/>
+    <img src="/assets/metacritic_symfony_3.png" class="card-img-bottom" alt="page films"/>
   </div>
 
-  <div class="card mb-3">
-    <div class="card-body">
-      <h5 class="card-title">Liste des Missions</h5>
-      <p class="card-text">
-        Pour chaque mission dans la liste, on peut créer ou modifier le formulaire, consulter son historique et le dupliquer.
-        On a également une zone de recherche.
-      </p>
-    </div>
-    <img src="/assets/intranet_insercall_11.png" class="card-img-bottom" alt="liste_missions"/>
-  </div>
 
-  <h2 class="text-center">Galerie</h2>
+<h2 class="text-center">Galerie</h2>
 
-  <div class="row">
+<div class="row">
   <div class="column">
-    <img src="/assets/intranet_insercall_5.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="/assets/metacritic_symfony.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="/assets/intranet_insercall_6.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="/assets/metacritic_symfony_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="/assets/intranet_insercall_7.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="/assets/intranet_insercall_11.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="/assets/metacritic_symfony_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -82,15 +63,15 @@ tags:
   <div class="modal-content">
     <div class="mySlides">
       <div class="numbertext">1 / 3</div>
-      <img src="/assets/intranet_insercall_5.png" style="width:100%">
+      <img src="/assets/metacritic_symfony.png" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">2 / 3</div>
-      <img src="/assets/intranet_insercall_6.png" style="width:100%">
+      <img src="/assets/metacritic_symfony_2.png" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">3 / 3</div>
-      <img src="/assets/intranet_insercall_7.png" style="width:100%">
+      <img src="/assets/metacritic_symfony_3.png" style="width:100%">
     </div> 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -100,16 +81,18 @@ tags:
 
 <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/assets/intranet_insercall_5.png" style="width:100%" onclick="currentSlide(1)" alt="creation mission">
+      <img class="demo cursor" src="/assets/metacritic_symfony.png" style="width:100%" onclick="currentSlide(1)" alt="Page Accueil">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/intranet_insercall_6.png" style="width:100%" onclick="currentSlide(2)" alt="creation formulaire mission">
+      <img class="demo cursor" src="/assets/metacritic_symfony_2.png" style="width:100%" onclick="currentSlide(2)" alt="Page Jeux">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/intranet_insercall_7.png" style="width:100%" onclick="currentSlide(3)" alt="ajout données avec formulaire">
+      <img class="demo cursor" src="/assets/metacritic_symfony_3.png" style="width:100%" onclick="currentSlide(3)" alt="Page Films">
     </div>
   </div>
+
 </div>
+
 </div>
 
 <script>
